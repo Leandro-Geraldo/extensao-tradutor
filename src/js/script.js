@@ -1,6 +1,6 @@
 document.getElementById('translateBtn').addEventListener('click', async () => {
     const text = document.getElementById('textToTranslate').value;
-    const targetLang = 'pt-BR, en';
+    const targetLang = 'pt-BR';
     
     if (text) {
       try {
